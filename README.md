@@ -10,6 +10,7 @@ At first, when working with gps-sdr-sim I found it really difficult to understan
 ## What's needed
 * Python 3
 * Internet connection
+* libhackrf and hackrf_transfer installed
 * HackRF One
 
 ## Usage
@@ -18,7 +19,7 @@ git clone https://github.com/last-byte/GPSpoof.git
 cd ./GPSpoof
 ./gpspoof
 ```
-From there on follow the instructions in the script.
+From there on follow the instructions in the script. If it's the first time running the script, answering yes to all the question will (usually) do the job.
 
 ## What it does
 * Download and compile gps-sdr-sim if not present in the same directory
