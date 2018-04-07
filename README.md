@@ -2,7 +2,7 @@
 Python wrapper for [gps-sdr-sim](https://github.com/osqzss/gps-sdr-sim)
 
 ## What it is
-GPSPOOF is a python script with the purpose of helping set up the environment for gps-sdr-sim and hackrf_transfer tools.
+GPSpoof is a python script with the purpose of helping set up the environment for gps-sdr-sim and hackrf_transfer tools.
 
 ## Why
 At first, when working with gps-sdr-sim I found it really difficult to understand what files where needed and why it did not work sometimes (NASA FTP is pretty messy actually) so I had to write my own script to aid in the process. Talking with some pals of mine it seemed like I was not the only one having troubles with the tools, so I decided to release this wrapper.
