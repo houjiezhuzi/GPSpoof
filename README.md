@@ -1,5 +1,5 @@
 # GPSpoof
-Python wrapper for gps-sdr-sim
+Python wrapper for [gps-sdr-sim](https://github.com/osqzss/gps-sdr-sim)
 
 ## What it is
 GPSPOOF is a python script with the purpose of helping set up the environment for gps-sdr-sim and hackrf_transfer tools.
@@ -10,6 +10,7 @@ At first, when working with gps-sdr-sim I found it really difficult to understan
 ## What's needed
 * Python 3
 * Internet connection
+* HackRF One
 
 ## Usage
 ```
@@ -27,4 +28,4 @@ From there on follow the instructions in the script.
 * Make you happy using colors :)
 
 ## TO-DO
-* [ ] Add support for movement
+* [ ] Add support for movement;
