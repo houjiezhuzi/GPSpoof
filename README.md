@@ -1,6 +1,8 @@
 # GPSpoof
 Python wrapper for [gps-sdr-sim](https://github.com/osqzss/gps-sdr-sim)
 
+By: last-byte & VoidSec
+
 ## What it is
 GPSpoof is a python script with the purpose of helping set up the environment for gps-sdr-sim and hackrf_transfer tools.
 
