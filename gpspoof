@@ -48,7 +48,7 @@ def downloadBrdc():
 
 
 def gpssimbin(brdcFile, lat, lon, hgt, runt):
-	runt=int(runt)*60
+	#runt=int(runt)*60
 	os.system("./gps-sdr-sim -b 8 -e brdc_files/%s -l %s,%s,%s -d %s" % (brdcFile, lat, lon, hgt, runt))
 	print("\n\t\033[92m[*] Data processed, gpssim.bin created.\033[0m")
 
@@ -98,7 +98,7 @@ def main():
 			lat = input("\t[?] Latitude (41.89): > ")
 			lon = input("\t[?] Longitude (12.49): > ")
 			hgt = input("\t[?] Height (m): > ")
-			runt = input("\t[?] Run Time (min): > ")
+			runt = input("\t[?] Run Time (sec): > ")
 		else:
 			lat = "41.890251"
 			lon = "12.492373"
